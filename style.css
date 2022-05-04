@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(243, 252, 250);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(34, 73, 70);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 5px solid white;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(155, 222, 214, 0.1);
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.btn-green {
+  background-color: #AA4465;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+h1, h2 {
+  font-family: 'Roboto Serif', serif;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  color: rgb(56, 124, 119);
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(87, 137, 132);
+}
+
+p {
+  margin: -10px 20px 20px 20px;
+  padding: 20px 20px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(20, 170, 113);
+}
+
+.btn-green:hover {
+  background-color: #861657;
+}
+
+.btn-pink:hover {
+  color: #861657;
+}
+
+
+li {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
